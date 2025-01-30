@@ -14,7 +14,8 @@ This script works on Kali Linux and requires `xfce4-genmon`.
 4. Set the script’s path in the widget’s command field.  
 5. Choose a font, size, and refresh interval.  
 
-Now it will display the IP from `/etc/hosts` (if available) and allow copying it with a click.
+Now it will display the IP from `/etc/hosts` (if available) and allow copying it with a click.  
+
 Add IP and hostname
 ```bash
 echo -e "#HTB\n10.10.1337.10 machine.htb www.machine.htb" | sudo tee -a /etc/hosts > /dev/null
